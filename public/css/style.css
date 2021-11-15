@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/EMR8AK.jpg);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: black;
+    background-color: white;
+    width: 415px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.chiffre, .erase, .operateur{
+    width: 8%;
+    height: 55px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.erase{
+    background-color: red;
+}
+
+.enter{
+    width: 33%;
+    height: 55px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:active{
+    background-color: rgb(72, 86, 121);
+    transform: translateY(3px);
+    border-radius: 5px;
+}
